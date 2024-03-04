@@ -5,13 +5,13 @@ import * as serviceWorker from "./serviceWorker"
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import {
   Navigation,
-  Footer,
+  // Footer,
   Home,
-  About,
-  Contact,
-  Testimonials,
-  Posts,
-  Post,
+  // About,
+  // Contact,
+  // Testimonials,
+  // Posts,
+  // Post,
 } from "./components";
 
 ReactDOM.render(
@@ -19,14 +19,14 @@ ReactDOM.render(
     <Navigation />
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />} />
+      {/* <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/testimonials" element={<Testimonials />}>
         <Route path="" element={<Posts />} />
         <Route path=":postSlug" element={<Post />} />
-      </Route>
+      </Route> */}
     </Routes>
-    <Footer />
+    {/* <Footer /> */}
   </Router>,
 
   document.getElementById("root")
