@@ -7,33 +7,49 @@ body {
     background-color: #f8f9fa; /* Light gray background */
   }
   
-  /* Navigation bar styles */
-  
-  .navigation {
+/* Navbar.css */
+
+/* Navigation bar styles */
+
+.navigation {
     background-color: #343a40; /* Dark gray background */
-  }
-  
-  .navbar {
+}
+
+.navbar {
     padding: 1rem 0;
-  }
-  
-  .navbar-brand {
+    display: flex;
+    justify-content: space-between; /* Distribute items evenly */
+    align-items: center; /* Center items vertically */
+}
+
+.navbar-brand {
     font-size: 1.5rem;
     color: #ffffff; /* White color for the brand/logo */
-  }
-  
-  .navbar-brand:hover {
+    position: relative;
+}
+
+.navbar-brand:hover {
     color: #ffc107; /* Yellow color on hover */
-  }
-  
-  .navbar-nav .nav-link {
+}
+
+.navbar-nav {
+    display: flex;
+    margin-left: auto; /* Push nav-items to the right */
+}
+
+.navbar-nav .nav-item {
+    margin-left: 1rem; /* Add space between items */
+}
+
+.navbar-nav .nav-link {
     color: #ffffff; /* White color for navigation links */
-    margin-right: 1rem;
-  }
-  
-  .navbar-nav .nav-link:hover {
+}
+
+.navbar-nav .nav-link:hover {
     color: #ffc107; /* Yellow color on hover */
-  }
+}
+  
+  
   
   /* Home page styles */
   
