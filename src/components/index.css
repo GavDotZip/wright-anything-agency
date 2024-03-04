@@ -39,6 +39,8 @@ body {
 
 .navbar-nav .nav-item {
     margin-left: 1rem; /* Add space between items */
+    margin-right: auto;
+
 }
 
 .navbar-nav .nav-link {
