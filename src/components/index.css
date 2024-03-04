@@ -1,37 +1,65 @@
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@400;600;700&display=swap");
-
-* {
- box-sizing: border-box;
- padding: 0;
- margin: 0;
-}
-
-:root {
- --header-height: 3.5rem;
- --first-color: hsl(28, 88%, 62%);
- --title-color: hsl(0, 0%, 95%);
- --text-color: hsl(0, 0%, 75%);
- --body-color: hsl(0, 0%, 100%);
- --body-font: "Montserrat", sans-serif;
- --second-font: "Dancing Script", cursive;
- --h2-font-size: 1.25rem;
- --small-font-size: 0.813rem;
- --font-semi-bold: 600;
- --z-tooltip: 10;
- --z-fixed: 100;
-}
+/* Global styles */
 
 body {
- background-color: var(--body-color);
- color: var(--text-color);
- font-family: var(--body-font);
-}
-
-ul {
- list-style: none;
-}
-
-a {
- text-decoration: none;
-}
-
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Light gray background */
+  }
+  
+  /* Navigation bar styles */
+  
+  .navigation {
+    background-color: #343a40; /* Dark gray background */
+  }
+  
+  .navbar {
+    padding: 1rem 0;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    color: #ffffff; /* White color for the brand/logo */
+  }
+  
+  .navbar-brand:hover {
+    color: #ffc107; /* Yellow color on hover */
+  }
+  
+  .navbar-nav .nav-link {
+    color: #ffffff; /* White color for navigation links */
+    margin-right: 1rem;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #ffc107; /* Yellow color on hover */
+  }
+  
+  /* Home page styles */
+  
+  .home {
+    padding: 3rem 0;
+  }
+  
+  .container {
+    max-width: 1200px; /* Maximum width for the container */
+    margin: 0 auto; /* Center the container */
+  }
+  
+  .home img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Rounded corners for the image */
+  }
+  
+  .home h1 {
+    font-size: 2.5rem;
+    color: #343a40; /* Dark gray color for the heading */
+    margin-bottom: 1.5rem;
+  }
+  
+  .home p {
+    font-size: 1.2rem;
+    color: #6c757d; /* Gray color for the paragraph */
+  }
+  
