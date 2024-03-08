@@ -8,11 +8,13 @@ function Home() {
             <div className="container">
                 {/* First row */}
                 <div className="row align-items-center my-5">
+
                     <div className="col-lg-7">
                         <img className="img-fluid rounded mb-4 mb-lg-0"
                             src="https://static.wikia.nocookie.net/heroism/images/e/e0/Wright_Anything_Agency.png/revision/latest?cb=20170508034354"
                             alt="waaImage"/>
                     </div>
+
                     <div className="col-lg-5">
                         <h1 className="font-weight-light">Wright Anything Agency</h1>
                         <p>
@@ -21,6 +23,7 @@ function Home() {
                             teenage magician Trucy Wright, and rookie defense attorney Athena Cykes.
                         </p>
                     </div>
+                    
                 </div>
 
                 {/* Second row - Carousel */}
@@ -65,12 +68,15 @@ function Home() {
                             Some text here...
                         </p>
                     </div>
+
                     <div className="col-lg-5">
                         <img className="img-fluid rounded mb-4 mb-lg-0"
                             src="https://example.com/third-image.png"
                             alt="Third Image"/>
                     </div>
+
                 </div>
+
             </div>
         </div>
     );
