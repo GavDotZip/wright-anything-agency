@@ -17,7 +17,9 @@ function Home() {
                     <div class="col-lg-5">
                         <h1 class="font-weight-light">Wright Anything Agency</h1>
                         <p>
-                            AAAAAAAAAAAAAAAAAAAAA
+                        The Wright Anything Agency is a law office and talent agency specializing in criminal law located near People Park in Los Angeles,
+                         with the nearest medical facility being the Hickfield Clinic. The office consists of renowned defense attorney Phoenix Wright, 
+                         teenage magician Trucy Wright, and rookie defense attorney Athena Cykes.
                         </p>
                     </div>
                 </div>
